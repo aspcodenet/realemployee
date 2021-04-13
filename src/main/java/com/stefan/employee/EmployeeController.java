@@ -35,7 +35,7 @@ public class EmployeeController {
         return l;
     }
 
-    @GetMapping(path="/player/{id}")
+    @GetMapping(path="/employee/{id}")
     @CrossOrigin()
     Employee getSingle(@PathVariable Integer id){
         return employeeRepository.findById(id).get();    
