@@ -12,7 +12,7 @@ public class EmployeeTests {
 		employee.setName("Stefan Holmberg");
 		employee.setPersonalNumber("19720803");
 
-		assertThat(employee.calculateMonthlySalary(hours)).isEqualTo(20000);
+		assertThat(employee.calculateMonthlySalary(hours)).isEqualTo(2000);
 
 	}
     
